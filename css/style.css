@@ -1,0 +1,214 @@
+* {
+    margin:0;
+    padding: 0;
+    line-height: 1em;
+    font-size: 100%;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../img/banner.png');
+    color: #e0e0e0;
+     background-size: 100%;
+    background-repeat: no-repeat;  
+    top: 0;
+    right: 0;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Pirata One', cursive;
+    font-size: 7.618em;
+    text-align: center;
+    letter-spacing: 5pt;
+}
+
+h2 {
+    font-family: 'Pirata One', cursive;
+    text-align: center;
+    font-size: 3.618em;
+    letter-spacing: 4pt;
+}
+
+h3 {
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 3em;
+    padding-bottom: 0.5em;
+    padding-top: 1.5em;
+}
+
+.download{
+    font-weight: 400;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size:2em;
+    display: block; 
+    padding-top: 3em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    background-color: #323232;
+}
+
+.row-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    background-color: #191919;
+}
+
+.row-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    background-color: #5B5B5B;
+}
+
+.left, .right {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.container {
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.one {
+      background-image: url(../img/50cent.png);  
+}
+
+.two {
+      background-image: url(../img/tupac.png);
+      
+}
+
+.three {
+     background-image: url(../img/chance.png);
+}
+
+.four {
+     background-image: url(../img/drake.png);
+}
+
+
+.five {
+     background-image: url(../img/biggie.png);
+}
+
+.six {
+     background-image: url(../img/jcole.png);
+}
+
+.seven {
+     background-image: url(../img/snoop-dogg.png);
+}
+
+.eight {
+     background-image: url(../img/rocky.png);
+}
+
+.nine {
+     background-image: url(../img/easy-e.png);
+}
+
+.ten {
+     background-image: url(../img/kayne.png);
+}
+
+.eleven{
+     background-image: url(../img/eminem.png);
+}
+
+.twelve {
+     background-image: url(../img/odb.png);
+}
+
+
+p{
+    font-weight: 400;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size:22px;
+    display: block;
+    
+}
+
+.about{
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+a.button{
+    position: relative;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    text-align: center;
+    display: block;
+    width: 4em;
+    padding: 12px 12px;
+    text-decoration: none;
+    background: none;
+    border: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    letter-spacing: 2px;
+    background-color: #191919; 
+}
+
+a.button:hover {
+    border: 3px solid #24962A; 
+    transform: scale(1.1);
+    background-color: #24962A;
+    color: #fff;
+}
+   
+footer{
+  background-color: #1a1a1a;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.by{
+    font-weight: 400;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size:22px;
+    display: block;
+    padding-left: 2.2em;
+}
+
+
